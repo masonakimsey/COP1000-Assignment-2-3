@@ -3,6 +3,9 @@
 itemName = "TV Stand"
 retailPrice = 325.00
 wholesalePrice = 200.00
+profit = retailPrice - wholesalePrice
+salePrice = retailPrice - (retailPrice * 0.25)
+saleProfit = salePrice - wholesalePrice
 
 # Write your assignment statements here for profit, salePrice, and saleProfit
 
